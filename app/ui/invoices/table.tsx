@@ -30,6 +30,7 @@ export default async function InvoicesTable({
                         src={invoice.image_url}
                         className="mr-2 rounded-full"
                         width={28}
+                        alt="hello"
                         height={28}
                       />
                       <p>{invoice.name}</p>
@@ -88,6 +89,7 @@ export default async function InvoicesTable({
                         src={invoice.image_url}
                         className="rounded-full"
                         width={28}
+                        alt='hello'
                         height={28}
                       />
                       <p>{invoice.name}</p>
